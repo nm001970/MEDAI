@@ -1,0 +1,8 @@
+joblib
+numpy
+scikit-learn
+scipy
+threadpoolctl
+streamlit
+pillow
+pandas
