@@ -8,6 +8,7 @@ st.write ('''
 ** MOHAMMAD NADERI
 ''')
 
-img = Image.open(r'C:\Users\White Ram\Desktop\my_streamlit_app\pythonProject\img\robot-with-tablet.jpg')
+img_path = os.path.join('img', 'robot-with-tablet.jpg')
+img = Image.open(img_path)
 st.image(img,width=300, caption='MED_group')
 st.sidebar.header('Input Data')
