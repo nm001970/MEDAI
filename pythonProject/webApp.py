@@ -8,7 +8,8 @@ st.write ('''
 ** MOHAMMAD NADERI
 ''')
 
-img_path = os.path.join('img', 'robot-with-tablet.jpg')
+img_path = os.path.join(os.path.dirname(__file__), 'img', 'robot-with-tablet.jpg')
+
 img = Image.open(img_path)
 st.image(img,width=300, caption='MED_group')
 st.sidebar.header('Input Data')
